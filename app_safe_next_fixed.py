@@ -63,4 +63,4 @@ with st.expander("📚 نصائح لتحسين تعلم الحروف الأبج�
 if st.button("🔄 التالي"):
     st.session_state.target = random.choice(string.ascii_uppercase)
     st.session_state.answered = False
-    st.experimental_rerun()
+    st.rerun()
